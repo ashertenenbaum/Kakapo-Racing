@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakapo Racing - Sponsorships</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/ScalableKakapo.png">
+</head>
+<body>
+    <nav class="navbar">
+        <input type="checkbox" id="logo-click" class="logo-checkbox">
+        <label for="logo-click" class="logo-label">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ourteam.html">The Team</a></li>
+            <li><a href="sponsorships.html">Sponsorship</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <script>
+        window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+        navbar.classList.add('hidden');
+    } else {
+        navbar.classList.remove('hidden');
+    }
+});
+
+    </script>
+
+<header class="hero2">
+    <img class="logo3" src="assets/ScalableKakapo.png" alt="logo">
+    <div class="hero-text2">
+        <h1 class="gradient-text2">Kakapo Racing</h1>
+        <p>New Zealand’s Leading STEM Racing Team</p>
+    </div>
+</header>
+  
+    <section id="stems" class="section">
+        <h2 class="stems"> Our Sponsors</h2>
+    </section>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logo Sliders</title>
+        <style>
+            :root {
+                --animationSpeed: 40s;
+            }
+    
+            @keyframes scroll-right {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(calc(-250px * 7)); }
+            }
+    
+            @keyframes scroll-left {
+                0% { transform: translateX(calc(-250px * 7)); }
+                100% { transform: translateX(0); }
+            }
+    
+            .slider {
+                height: 100px;
+                margin: auto;
+                overflow: hidden;
+                position: relative;
+                width: auto;
+            }
+    
+            .slider .slide-track {
+                display: flex;
+                width: calc(250px * 14);
+            }
+    
+            .slider .slide {
+                height: 100px;
+                width: 250px;
+            }
+    
+            .slider-right .slide-track {
+                animation: scroll-right var(--animationSpeed) linear infinite;
+            }
+
+            .slider-righta .slide-track {
+                animation: scroll-right var(--animationSpeed) linear infinite;
+            }
+    .slider-righta{
+
+        padding-bottom: 250px;
+    }
+
+
+.slider-left {
+    padding-bottom: 30px;
+}
+
+.slider-right {
+
+    padding-bottom: 30px;
+}
+
+
+            .slider-left .slide-track {
+                animation: scroll-left var(--animationSpeed) linear infinite;
+            }
+          
+          
+            .slider:hover .slide-track {
+                animation-play-state: paused;
+            }
+          .slide {
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            border-left: 1.5px solid white;
+            border-right: 1.5px solid white;
+          }
+          
+        </style>
+    </head>
+    <body>
+    
+     
+        <div class="slider slider-right">
+            <div class="slide-track">
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <!-- dupe for smooth looping -->
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+            </div>
+        </div>
+    
+
+        <div class="slider slider-left">
+            <div class="slide-track">
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <!-- dupe forr smooth looping -->
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+            </div>
+        </div>
+    
+
+      <div class="slider slider-righta">
+            <div class="slide-track">
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <!-- dupe for smooth looping -->
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/companyname.png" height="100" width="250" alt="" /></div>
+                <div class="slide"><img src="assets/placeholder.png" height="100" width="250" alt="" /></div>
+            </div>
+        </div>
+    
+    </body>
+    </html>
+    
+
+
+
+
+</body>
+</html>
+
